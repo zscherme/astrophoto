@@ -1,5 +1,4 @@
 /*
-  Stepper Motor Demonstration 1
   Stepper-Demo1.ino
   Demonstrates 28BYJ-48 Unipolar Stepper with ULN2003 Driver
   Uses Arduino Stepper Library
@@ -9,7 +8,7 @@
 */
 
 //Include the Arduino Stepper Library
-#include <stepper.h>
+//#include <stepper.h>
 
 // sdfs
 
