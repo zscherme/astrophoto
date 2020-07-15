@@ -1,4 +1,4 @@
 {
-    "sketch": "example.ino",
+    "sketch": "test.ino",
     "board": "arduino:avr:uno"
 }
