@@ -3,9 +3,6 @@
   Stepper-Demo1.ino
   Demonstrates 28BYJ-48 Unipolar Stepper with ULN2003 Driver
   Uses Arduino Stepper Library
-
-  DroneBot Workshop 2018
-  https://dronebotworkshop.com
 */
 
 //Include the Arduino Stepper Library
