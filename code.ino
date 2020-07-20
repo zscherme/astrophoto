@@ -8,8 +8,9 @@
   https://dronebotworkshop.com
 */
 
+
 //Include the Arduino Stepper Library
-#include <Stepper.h>
+#include <stepper.h>
 
 // Define Constants
 
@@ -43,21 +44,21 @@ void setup()
 void loop()
 {
   // Slow - 4-step CW sequence to observe lights on driver board
-  steppermotor.setSpeed(1);    
-  StepsRequired  =  4;
-  steppermotor.step(StepsRequired);
-  delay(2000);
+//  steppermotor.setSpeed(1);    
+//  StepsRequired  =  4;
+//  steppermotor.step(StepsRequired);
+//  delay(2000);
 
    // Rotate CW 1/2 turn slowly
-  StepsRequired  =  STEPS_PER_OUT_REV / 2; 
-  steppermotor.setSpeed(100);   
-  steppermotor.step(StepsRequired);
-  delay(1000);
+StepsRequired  =  STEPS_PER_OUT_REV / 2; 
+steppermotor.setSpeed(1000);   
+steppermotor.step(StepsRequired);
+delay(1000);
   
   // Rotate CCW 1/2 turn quickly
-  StepsRequired  =  - STEPS_PER_OUT_REV / 2;   
-  steppermotor.setSpeed(700);  
-  steppermotor.step(StepsRequired);
-  delay(2000);
+ // StepsRequired  =  - STEPS_PER_OUT_REV / 2;   
+ // steppermotor.setSpeed(700);  
+ // steppermotor.step(StepsRequired);
+ // delay(2000);
 
 }
